@@ -11,6 +11,9 @@
         {{-- ナビゲーションバー --}}
         @include('commons.navbar')
 
+            {{-- エラーメッセージ --}}
+            @include('commons.error_messages')
+
         <div class="container">
             @yield('content')
         </div>
